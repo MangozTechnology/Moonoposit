@@ -10,6 +10,8 @@ public:
    Server();
    virtual ~Server();
 
+   const char* const SERVER_CONST("MonoServeModule");
+
    virtual void serverGetType() = 0;
    virtual void serverGetAPI() = 0;
    virtual void serverConnectDatabase() = 0;
