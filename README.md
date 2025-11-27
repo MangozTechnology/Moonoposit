@@ -1,2 +1,2 @@
 # Moonoposit
-Game and server deposit server
+Hospital patient and server deposit ( database )
