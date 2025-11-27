@@ -8,8 +8,7 @@ public:
    Graph();
    virtual ~Graph();
 
-   const char* const GRAPH_CONST("MonoGraph
-odule");
+   const char* const GRAPH_CONST("MonoGraphModule");
 
    virtual void graphGetType() = 0;
 
