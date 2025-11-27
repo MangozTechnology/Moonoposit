@@ -17,6 +17,9 @@ public:
    virtual void serverStreamMessage(const char* pMsg) = 0;
    virtual void serverStreamMessageS(std::string& pStream) = 0;
 
+   Server& getServer(Server& server);
+   const Server& getServer(const Server& server);
+
 };
 
 #endif
